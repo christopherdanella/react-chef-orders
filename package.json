@@ -1,0 +1,35 @@
+{
+  "name": "chef-tickets",
+  "version": "1.0.0",
+  "description": "Ticketing system for chefs to manage orders",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherdanella/react-chef-orders.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Christopher Danella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopherdanella/react-chef-orders/issues"
+  },
+  "homepage": "https://github.com/christopherdanella/react-chef-orders#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
